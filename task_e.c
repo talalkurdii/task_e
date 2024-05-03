@@ -2,7 +2,7 @@
 int main(int argc, char *argv[]){
 
     if (argc != 2) {
-        printf("Error. Expected 1 filename.", argv[0]);
+        printf("Error. Expected 1 filename.");
         return 1;
     }
 	
@@ -22,7 +22,7 @@ int main(int argc, char *argv[]){
     
     
     if (fptr == NULL ){
-        printf("Error. Cannot open requested file.", fptr[0]);
+        printf("Error. Cannot open requested file.");
         return 1;
     }
     
